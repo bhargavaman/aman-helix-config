@@ -3,6 +3,7 @@ theme = "base16_transparent"
 [editor]
 line-number = "relative"
 mouse = false
+color-modes = true
 
 [editor.cursor-shape]
 insert = "bar"
@@ -11,3 +12,12 @@ select = "underline"
 
 [editor.file-picker]
 hidden = false
+
+[editor.lsp]
+display-messages = true
+display-inlay-hints = true
+
+[keys.normal]
+C-u = ["half_page_up", "align_view_center"]
+C-d = ["half_page_down", "align_view_center"]
+C-s = ":w"
