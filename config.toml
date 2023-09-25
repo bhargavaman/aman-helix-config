@@ -18,4 +18,6 @@ display-messages = true
 display-inlay-hints = true
 
 [keys.normal]
+C-d = ["page_down", "align_view_center"]
+C-u = ["page_up", "align_view_center"]
 C-s = ":w"
