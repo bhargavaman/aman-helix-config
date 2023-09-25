@@ -4,6 +4,7 @@ theme = "base16_transparent"
 line-number = "relative"
 mouse = false
 color-modes = true
+completion-trigger-len = 1
 
 [editor.cursor-shape]
 insert = "bar"
@@ -12,6 +13,13 @@ select = "underline"
 
 [editor.file-picker]
 hidden = false
+
+[editor.search]
+smart-case = true
+
+[editor.indent-guides]
+render = true
+character = "|"
 
 [editor.lsp]
 display-messages = true
