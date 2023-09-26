@@ -1,0 +1,10 @@
+# On mac, run the following command in the terminal to symlink and generate a languages.toml
+# ln -s languages.mac.toml languages.toml
+
+[[language]]
+name = "astro"
+scope = "source.astro"
+file-types = ["astro"]
+auto-format = true
+language-server = { command = "astro-ls", args = ["--stdio"] }
+config = { typescript = { tsdk = "/Users/bhargavaman/Library/pnpm/global/5/node_modules/typescript/lib" }, environment = "node" }
